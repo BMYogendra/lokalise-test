@@ -11,5 +11,12 @@
     "join_vite_community": "Join the Vite community",
     "github": "GitHub",
     "discord": "Discord",
-    "x_com": "X.com"
+    "x_com": "X.com",
+    "nest": {
+        "level1": {
+            "level2": {
+                "level3": "Deeply nested value"
+            }
+        }
+    }
 }

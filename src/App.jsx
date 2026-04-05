@@ -24,6 +24,12 @@ function App() {
         >
           Español
         </button>
+         <button
+          onClick={() => i18n.changeLanguage('nl_NL')}
+          style={{ padding: '5px 10px', fontWeight: i18n.language === 'nl_NL' ? 'bold' : 'normal' }}
+        >
+          Dutch Neth
+        </button>
       </div>
       <section id="center">
         <div className="hero">
