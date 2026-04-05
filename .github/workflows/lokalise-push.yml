@@ -5,6 +5,8 @@ on:
     branches:
       - main
       - master
+    paths:
+      - 'locales/i18n/en.json'
   workflow_dispatch:
 
 jobs:
