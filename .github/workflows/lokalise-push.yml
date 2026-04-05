@@ -1,0 +1,28 @@
+name: Sync Base Language to Lokalise
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+jobs:
+  sync-to-lokalise:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Upload base language file to Lokalise
+        uses: lokalise/lokalise-push-action@v4.0.0
+        with:
+          api_token: 1f7d91b487831c7264c6643be0cb8d40162efea7
+          project_id: 7328646269d2a3b99470e5.82286810
+          translations_path: 'locales/i18n'
+          flat_naming: true
+          base_lang: 'en'
+          file_format: 'en'
