@@ -11,5 +11,12 @@
     "join_vite_community": "Únete a la comunidad de Vite",
     "github": "GitHub",
     "discord": "Discord",
-    "x_com": "X.com"
+    "x_com": "X.com",
+    "nest": {
+        "level1": {
+            "level2": {
+                "level3": "Translated To Spanish"
+            }
+        }
+    }
 }
